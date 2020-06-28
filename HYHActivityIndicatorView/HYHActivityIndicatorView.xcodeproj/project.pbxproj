@@ -16,6 +16,7 @@
 		4AC163F924A87016000767F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC163F824A87016000767F3 /* main.m */; };
 		4AC1640324A87016000767F3 /* HYHActivityIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1640224A87016000767F3 /* HYHActivityIndicatorViewTests.m */; };
 		4AC1640E24A87016000767F3 /* HYHActivityIndicatorViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1640D24A87016000767F3 /* HYHActivityIndicatorViewUITests.m */; };
+		4AC1641D24A87E35000767F3 /* HYHActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1641C24A87E35000767F3 /* HYHActivityIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		4AC1640924A87016000767F3 /* HYHActivityIndicatorViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYHActivityIndicatorViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC1640D24A87016000767F3 /* HYHActivityIndicatorViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHActivityIndicatorViewUITests.m; sourceTree = "<group>"; };
 		4AC1640F24A87016000767F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC1641B24A87E35000767F3 /* HYHActivityIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHActivityIndicator.h; sourceTree = "<group>"; };
+		4AC1641C24A87E35000767F3 /* HYHActivityIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYHActivityIndicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				4AC163EA24A87015000767F3 /* SceneDelegate.m */,
 				4AC163EC24A87015000767F3 /* ViewController.h */,
 				4AC163ED24A87015000767F3 /* ViewController.m */,
+				4AC1641B24A87E35000767F3 /* HYHActivityIndicator.h */,
+				4AC1641C24A87E35000767F3 /* HYHActivityIndicator.m */,
 				4AC163EF24A87015000767F3 /* Main.storyboard */,
 				4AC163F224A87016000767F3 /* Assets.xcassets */,
 				4AC163F424A87016000767F3 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC1641D24A87E35000767F3 /* HYHActivityIndicator.m in Sources */,
 				4AC163EE24A87015000767F3 /* ViewController.m in Sources */,
 				4AC163E824A87015000767F3 /* AppDelegate.m in Sources */,
 				4AC163F924A87016000767F3 /* main.m in Sources */,

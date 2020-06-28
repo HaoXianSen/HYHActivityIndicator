@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "HYHActivityIndicator.h"
+
 @interface ViewController ()
 
 @end
@@ -16,7 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    UIActivityIndicatorView *activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleLarge];
+    activityIndicator.frame = CGRectMake(100, 100, 40, 40);
+    [self.view addSubview:activityIndicator];
+    [activityIndicator startAnimating];
+    
+    HYHActivityIndicator *indicator = [[HYHActivityIndicator alloc] initWithFrame:CGRectMake(100, 200, 40, 40)];
+    [self.view addSubview:indicator];
+    [indicator startAnimation];
+    
 }
 
 
