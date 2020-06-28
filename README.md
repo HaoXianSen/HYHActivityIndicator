@@ -10,13 +10,15 @@
     sin（α） = 对边/ 斜边；
 2. iOS 坐标系
    
-    <img src="/Users/ddreader/Library/Application Support/typora-user-images/image-20200628194534621.png" alt="image-20200628194534621" style="zoom:30%;" />
+   <img src="../screenshots/image-20200628194534621.png" alt="image-20200628194534621" style="zoom:30%;" />
+    
 
 3. 绘制知识
 
    iOS 重写view 的-(void)drawRect:(CGRect)rect，通过UIBezierPath 连接两点，形成线段，完成菊花的绘制。
 
-#### ### 主要思路和中心代码解释
+主要思路和中心代码解释
+---------------------------------
 
 1. 通过重写drawRect：方法绘制菊花，更具偏移量_start， 取出存储的alpha值，绘制每条线
 
