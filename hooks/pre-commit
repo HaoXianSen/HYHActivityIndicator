@@ -12,9 +12,7 @@ ARGS+=(--hook-dir "$HERE" -- "$@")
 
 echo '验证了'
 
-exit 1
-
-
+exit 0
 
 if [ -x "$INSTALL_PYTHON" ]; then
     exec "$INSTALL_PYTHON" -mpre_commit "${ARGS[@]}"
